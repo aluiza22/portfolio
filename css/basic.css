@@ -32,3 +32,8 @@
 .col50.pr {padding-right: 10px;}
 
 .col33.middle {margin: 0 2%;}
+
+
+@media only screen and (max-width: 771px) { 
+  .col {width: 100% !important; margin-bottom: 10px;}
+}

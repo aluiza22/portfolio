@@ -82,7 +82,7 @@ a#lang {position: absolute; top: 10px; right: 10px;}
       border-top: 1em solid #87244C;
       border-left: 1em solid transparent;
       position: absolute;
-      left: -1em;
+      left: -8px;
       top: 0;
 }
 
@@ -123,12 +123,16 @@ a#lang {position: absolute; top: 10px; right: 10px;}
     .timeline li:nth-child(odd):before {
         border-top: 1em solid #87244C;
         border-right: 1em solid transparent;
-        right: -1em;
+        right: -8px;
         left: auto;
       }
     
     .timeline li:nth-of-type(2n+1) {
       clear: both;
     }
+}
 
+@media only screen and (max-width: 771px) { 
+  .timeline h2 {margin: 0 0 1em;}
+}
 
