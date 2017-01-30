@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Copyright (c) 2017 by anonymous (http://jsbin.com/deboliqiji/1/edit) -->
+<html>
+	<head>
+		<style>
+			svg { display: none; }
+			html, body { width: 100%; height: 100%; margin:0; padding: 0;}
+			header {height: 400px; width: 100%;}
+			main {height: 1000px;}
+		</style>
+	</head>
+	<body>
+		<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8'>
+			<linearGradient id='h' gradientTransform="rotate(100)">
+				<stop offset='0%' stop-color='#2b0b3a'/>
+				<stop offset='100%' stop-color='#2b0b3a' stop-opacity='0'/>
+			</linearGradient>
+			<path d='M-2 10L10 -2ZM10 6L6 10ZM-2 2L2 -2' stroke='#372B2E' stroke-width='4.5'/>
+		</svg>
+
+		<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'>
+			<linearGradient id='g' x2='1' y2='1'>
+				<stop stop-color='#CC09EE'/>
+				<stop offset='100%' stop-color='#6AFAA9'/>
+			</linearGradient>
+			<rect width='100%' height='100%' fill='url(#g)'/>
+		</svg>
+
+
+		<header>
+			
+		</header>
+
+		<main>
+			
+		</main>
+
+		<script>
+			// Encode an SVG element as a base64 data uri.
+			function svgToBase64Image(svgElement) {
+			  var div = document.createElement('div');
+			  div.appendChild(svgElement.cloneNode(true));
+			  var b64 = window.btoa(div.innerHTML);
+			  return 'data:image/svg+xml;base64,' + b64;
+			}
+			var svgs = document.getElementsByTagName('svg');
+			var urls = [];
+			for (var i = 0; i < svgs.length; i++)
+			  urls.push('url("' + svgToBase64Image(svgs[i]) + '")');
+			var url = urls.join(',');
+			// var msg = 'Base64 CSS image (for cross-browser support):' +
+			//           '<br><br>background: ' + url + ';';
+			// document.getElementById('code').innerHTML = msg;
+			var header = document.getElementsByTagName('header')[0];
+			header.style.background = url;
+		</script>
+	</body>
+</html>

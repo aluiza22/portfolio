@@ -1,0 +1,51 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-google-plus {
+  width: 20px;
+  height: 20px;
+  background-position: 0 0;
+}
+.icon-facebook {
+  width: 20px;
+  height: 20px;
+  background-position: -36px 0;
+}
+.icon-instagram {
+  width: 20px;
+  height: 20px;
+  background-position: -72px 0;
+}
+.icon-spotify {
+  width: 20px;
+  height: 20px;
+  background-position: -108px 0;
+}
+.icon-twitter {
+  width: 20px;
+  height: 20px;
+  background-position: -144px 0;
+}
+.icon-youtube {
+  width: 20px;
+  height: 20px;
+  background-position: -180px 0;
+}
+.icon-github {
+  width: 20px;
+  height: 20px;
+  background-position: -216px 0;
+}
+.icon-skype {
+  width: 20px;
+  height: 20px;
+  background-position: -252px 0;
+}
+.icon-linkedin2 {
+  width: 20px;
+  height: 20px;
+  background-position: -288px 0;
+}
+

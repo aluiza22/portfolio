@@ -1,0 +1,34 @@
+.row {display: block; width: 100%; float: none; clear: both;}
+.row.in {margin-top: 20px;}
+.row:after {clear: both; float: none; content: ""; display: block;}
+
+.col {display: block; float: left; position: relative; overflow: hidden; box-sizing: border-box;}
+
+.col10 {width: 10%;}
+.col15 {width: 15%;}
+.col20 {width: 20%;}
+.col25 {width: 25%;}
+.col30 {width: 30%;}
+.col33 {width: 32%;}
+.col35 {width: 35%;}
+.col40 {width: 40%;}
+.col45 {width: 45%;}
+.col50 {width: 50%;}
+.col55 {width: 55%;}
+.col60 {width: 60%;}
+.col65 {width: 65%;}
+.col70 {width: 70%;}
+.col75 {width: 75%;}
+.col80 {width: 80%;}
+.col85 {width: 85%;}
+.col90 {width: 90%;}
+.col95 {width: 95%;}
+.col100 {width: 100%; float: none;}
+
+.pl {padding-left: 20px;}
+.pr {padding-right: 20px;}
+
+.col50.pl {padding-left: 10px;}
+.col50.pr {padding-right: 10px;}
+
+.col33.middle {margin: 0 2%;}
