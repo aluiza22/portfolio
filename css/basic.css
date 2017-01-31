@@ -1,4 +1,4 @@
-.row {display: block; width: 100%; float: none; clear: both;}
+.row {display: block; width: 100%; float: none; clear: both; margin-bottom: 30px;}
 .row.in {margin-top: 20px;}
 .row:after {clear: both; float: none; content: ""; display: block;}
 

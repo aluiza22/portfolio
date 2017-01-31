@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Farsan|Lobster|Nunito|Pacifico|Shadows+Into+Light|VT323');
 
 html, body {font-family: 'Farsan', cursive;}
-svg { display: none; }
+svg.svbg { display: none; }
 header {text-align: center; padding: 80px 0px; color: #fff; position: relative; text-shadow: 1px 1px 4px #676767, 0 0 0 #000, -1px -1px 4px #1d1d1d;}
 header h1{font-size: 4em; vertical-align: middle; color: #fff; font-weight: bold;}
 header span {font-size: 1.5em; font-family: 'Shadows Into Light', cursive; font-weight: bold;}
@@ -34,8 +34,14 @@ h4 {margin-top: 0;  font-weight: normal;}
 a {color: #87244C;}
 a#lang {position: absolute; top: 10px; right: 10px;}
 
+.social-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
 .socialIcons {position: absolute; bottom: 10px; width: 100%;}
-.socialIcons a {opacity: .5; margin: 0 5px;}
+.socialIcons a {opacity: .6; margin: 0 5px;}
 .socialIcons a:hover {opacity: 1;}
 
 /* timeline */
@@ -52,7 +58,7 @@ a#lang {position: absolute; top: 10px; right: 10px;}
     background: #6AFAA9;
     left: 0;
   }
-  
+ .timeline h2.title {background: #fff; font-size: 1.3em; border: 1px solid #6AFAA9; padding: 10px 5px 5px; color: #5ab984; font-weight: normal;}  
  .timeline h2 {
     background: #6AFAA9;
     max-width: 6em;
@@ -94,9 +100,17 @@ a#lang {position: absolute; top: 10px; right: 10px;}
 .timeline time {
     font-style: italic;
   }
+ul.skills, ul.know {padding: 10px;}
+ul.skills li, ul.know li {
+  padding: 5px 10px; 
+  display: inline-block; 
+  margin: 0 10px 10px 0; 
+  font-weight: bold;
+}
+ul.skills li {background: #CC09EE;  color: #fff; }
+ul.know li {border: 1px solid #CC09EE; color: #CC09EE;}
 
 @media screen and (min-width: 40em) {
- 
 
     .timeline:before {
       left: 50%;
