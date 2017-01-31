@@ -78,7 +78,7 @@
 			<section>
 				<h2 class='sectionTitle'>About me</h2>
 				<div class="row">
-					<div class="col col100">
+					<div id="sumary" class="col col70 middle">
 						<p>I am a technology lover from Brazil who started working with front end development at first year of college and got passionate about it. Then, I started adventuring myself at back end development, because challenges are never enough. </p>
 						<p>Later, I had the amazing opportunitty to study abroad and that gave me a multicultural vision and awesome experiences, but also made me realize I have a lot to learn about the world, myself and my work.</p>
 						<p>And I believe that when we do what we like, we can learn faster and get better results.</p>
@@ -99,6 +99,7 @@
 						    </ul>
 						    <h2>2010</h2>
 						    <ul>
+						      <li style="display: none;"></li>
 						      <li>
 						        <h3>IT Intern</h3>
 						        <h4>Dr. Chip</h4>
@@ -147,6 +148,7 @@
 						    </ul>
 						    <h2>2016</h2>
 						    <ul>
+						     <li style="display: none;"></li>
 						      <li>
 						        <h3>Web Developer</h3>
 						        <h4>PrismaFive</h4>

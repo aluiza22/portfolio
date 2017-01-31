@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Farsan|Lobster|Nunito|Pacifico|Shadows+Into+Light|VT323');
 
-html, body {font-family: 'Farsan', cursive;}
+html, body {font-family: 'Farsan', cursive; color: #250b18;}
 svg.svbg { display: none; }
 header {text-align: center; padding: 80px 0px; color: #fff; position: relative; text-shadow: 1px 1px 4px #676767, 0 0 0 #000, -1px -1px 4px #1d1d1d;}
 header h1{font-size: 4em; vertical-align: middle; color: #fff; font-weight: bold;}
@@ -9,7 +9,7 @@ header span {font-size: 1.5em; font-family: 'Shadows Into Light', cursive; font-
 #lang:hover {opacity: 1;}
 main {padding:20px; text-align:center; width: 90%; margin: auto;}
 
-h2.sectionTitle{font-weight:bold; text-align:center; margin:40px 0 10px; color:#494949; text-transform: lowercase; font-size: 2em; color: #fff; background-color: #87244C; padding: 0px 50px; display: inline-block; position: relative; line-height: 56px; height: 50px; text-shadow: 1px 1px 4px #676767, 0 0 0 #000, -1px -1px 4px #1d1d1d;}
+h2.sectionTitle{font-weight:bold; text-align:center; margin:40px 0 20px; color:#494949; text-transform: lowercase; font-size: 2em; color: #fff; background-color: #87244C; padding: 0px 50px; display: inline-block; position: relative; line-height: 56px; height: 50px; text-shadow: 1px 1px 4px #676767, 0 0 0 #000, -1px -1px 4px #1d1d1d;}
 h2.sectionTitle:before {
     content: '';
     position: absolute;
@@ -33,7 +33,7 @@ h4 {margin-top: 0;  font-weight: normal;}
 #projetos {background: rgba(255, 255, 255, 0.72); width: 190px; padding: 30px; margin: 80px auto;}
 a {color: #87244C;}
 a#lang {position: absolute; top: 10px; right: 10px;}
-
+#sumary {font-size: 1.25em;}
 .social-icon {
   display: inline-block;
   width: 20px;
@@ -91,15 +91,27 @@ a#lang {position: absolute; top: 10px; right: 10px;}
       left: -8px;
       top: 0;
 }
-
   
 .timeline h3 {
     margin-top: 0;
   }
-  
+
 .timeline time {
     font-style: italic;
   }
+.timeline li h3 {font-weight: bold; color: #fff; text-transform: uppercase; font-size: 1.05em;}
+.timeline li h4 {color: #fff; margin-bottom: 5px}
+.timeline li p {}
+.timeline li time {
+      color: #e786f9;
+    font-weight: bold;
+    margin: 10px -8px -8px;
+    font-size: .9em;
+    border: 1px solid;
+    padding: 8px 5px 5px;
+    display: block;
+}
+
 ul.skills, ul.know {padding: 10px;}
 ul.skills li, ul.know li {
   padding: 5px 10px; 
