@@ -1,0 +1,36 @@
+/* 
+PALETA 
+marrom #594C43
+laranja #EA7525
+azul claro #DCEBF0
+azul medio #4A748C
+azul escuro #0D1B24
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {margin:0; padding:0; outline: none; font-family: 'Open Sans', sans-serif;}
+body {background: url(images/parkinglot2.jpg) center bottom no-repeat #fff; background-size: 100% auto;}
+a {color: #594C43;}
+a:hover {color: #594C43; text-decoration: none;}
+header {background:#EA7525; }
+main {margin: 40px 0;}
+.logo {margin: 10px; display: inline-block;}
+.logo img {max-width: 120px; }
+.relatorio { display: inline-block; margin: 5px; background:#594C43; padding: 8px 11px; color: #fff;}
+.relatorio:hover {color: #fff;}
+h1 {color: #594C43; margin-bottom: 60px; text-align: justify;}
+.act {display: block; padding: 15px; color: #fff;margin: 0 auto 10px; width: 80%; font-size: 1.1em; font-family: 'Open Sans', sans-serif; font-weight: bold;}
+.act:hover {color: #fff;}
+.act.new { background: #EA7525; }
+.act.exp { background: #594C43; } 
+fieldset {border:0;display: block;margin: 0 auto 10px; width: 80%;}
+input[type='text'],input[type='submit'],select {display: block; padding: 15px;  width: 100%; font-size: 1.1em; font-family: 'Open Sans', sans-serif; }
+input[type='submit'] {background: #EA7525; color:#fff; border:0; text-transform: uppercase; font-weight: bold;}
+fieldset.vertice {position: relative;}
+fieldset.vertice span {font-size: 2.5rem; color: #D3BDAE; position: absolute; display: block; left: -35px; top: 15px;}
+fieldset.vertice span.glyphicon-plus {left:auto; right: -35px; color: #dfdfdf; cursor: pointer;}
+fieldset.vertice span.glyphicon-plus:hover {color: #c2c2c2;}
+fieldset input[type='text'].verticeL {display:inline-block; width: 49%;}
+fieldset input[type='text'].verticeL.lon {float: right;}
+ul {margin: 0; padding: 0;}
+li {font-size: 2rem; list-style: none;}
