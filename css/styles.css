@@ -1,13 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Farsan|Lobster|Nunito|Pacifico|Shadows+Into+Light|VT323');
 
+@-webkit-keyframes animatedBackground {
+    0%{background-color:#CC09EE;} 33%{background-color:#87244C;} 
+    66%{background-color:#6AFAA9;} 100%{background-color:#CC09EE;}
+}
+@-moz-keyframes animatedBackground {
+    0%{background-color:#CC09EE;} 33%{background-color:#87244C;}
+    66%{background-color:#6AFAA9;} 100%{background-color:#CC09EE;}
+}
+@keyframes animatedBackground { 
+    0%{background-color:#CC09EE;} 33%{background-color:#87244C;}
+    66%{background-color:#6AFAA9;} 100%{background-color:#CC09EE;}
+}
+/* -webkit-animation: animatedBackground 10s ease infinite;
+-moz-animation: animatedBackground 10s ease infinite;
+animation: animatedBackground 10s ease infinite; */
+
+@-webkit-keyframes animatedColor {
+    0%{color:#CC09EE;} 33%{color:#87244C;}
+    66%{color:#6AFAA9;} 100%{color:#CC09EE;}
+}
+@-moz-keyframes animatedColor {
+    0%{color:#CC09EE;} 33%{color:#87244C;}
+    66%{color:#6AFAA9;} 100%{color:#CC09EE;}
+}
+@keyframes animatedColor { 
+    0%{color:#CC09EE;} 33%{color:#87244C;}
+    66%{color:#6AFAA9;} 100%{color:#CC09EE;}
+}
+/* -webkit-animation: animatedColor 10s ease infinite;
+-moz-animation: animatedColor 10s ease infinite;
+animation: animatedColor 10s ease infinite; */
+
+@-webkit-keyframes animatedBorder {
+    0%{border-color:#CC09EE;} 33%{border-color:#87244C;}
+    66%{border-color:#6AFAA9;} 100%{border-color:#CC09EE;}
+}
+@-moz-keyframes animatedBorder {
+    0%{border-color:#CC09EE;} 33%{border-color:#87244C;}
+    66%{border-color:#6AFAA9;} 100%{border-color:#CC09EE;}
+}
+@keyframes animatedBorder { 
+    0%{border-color:#CC09EE;} 33%{border-color:#87244C;}
+    66%{border-color:#6AFAA9;} 100%{border-color:#CC09EE;}
+}
+/* -webkit-animation: animatedBorder 10s ease infinite;
+-moz-animation: animatedBorder 10s ease infinite;
+animation: animatedBorder 10s ease infinite; */
+
 html, body {font-family: 'Farsan', cursive; color: #250b18;}
 svg.svbg { display: none; }
+main {padding:20px 20px 0; text-align:center; width: 90%; margin: auto;}
+section {overflow: hidden;}
 header {text-align: center; padding: 80px 0px; color: #fff; position: relative; text-shadow: 1px 1px 4px #676767, 0 0 0 #000, -1px -1px 4px #1d1d1d;}
 header h1{font-size: 5em; vertical-align: middle; color: #fff; font-weight: bold;}
 header span {font-size: 2em; font-family: 'Shadows Into Light', cursive; font-weight: bold;}
 #lang {opacity: .5; color: #fff;}
 #lang:hover {opacity: 1;}
-main {padding:20px; text-align:center; width: 90%; margin: auto;}
 
 h2.sectionTitle{font-weight:bold; text-align:center; margin:40px 0 20px; color:#494949; text-transform: lowercase; font-size: 2em; color: #fff; background-color: #87244C; padding: 0px 50px; display: inline-block; position: relative; line-height: 56px; height: 50px; text-shadow: 1px 1px 4px #676767, 0 0 0 #000, -1px -1px 4px #1d1d1d;}
 h2.sectionTitle:before {
@@ -28,7 +77,11 @@ h2.sectionTitle:after {
     border-right: 50px solid transparent;
     width: 0;
 }
-h3.sectionSubtitle {text-align: center; color: #87244C; font-weight: normal; font-family: 'Shadows Into Light', cursive; font-size: 1.5em; margin: 10px 0;}
+
+h3.sectionSubtitle {text-align: center; color: #87244C; font-weight: normal; font-family: 'Shadows Into Light', cursive; font-size: 1.5em; margin: 10px 0; text-shadow: 1px 1px 0px #929292;
+-webkit-animation: animatedColor 10s ease infinite;
+-moz-animation: animatedColor 10s ease infinite;
+animation: animatedColor 10s ease infinite;}
 h4 {margin-top: 0;  font-weight: normal;}
 #projetos {background: rgba(255, 255, 255, 0.72); width: 190px; padding: 30px; margin: 80px auto;}
 a {color: #87244C;}
@@ -41,8 +94,8 @@ a#lang {position: absolute; top: 10px; right: 10px;}
   fill: #fff;
 }
 .socialIcons {position: absolute; bottom: 10px; width: 100%;}
-.socialIcons a {opacity: .6; margin: 0 5px;}
-.socialIcons a:hover {opacity: 1;}
+.socialIcons .social-icon {opacity: .6; margin: 0 5px;}
+.socialIcons .social-icon:hover {opacity: 1;}
 
 /* timeline */
 .timeline {
@@ -58,7 +111,10 @@ a#lang {position: absolute; top: 10px; right: 10px;}
     background: #6AFAA9;
     left: 0;
   }
- .timeline h2.title {background: #fff; font-size: 1.3em; border: 1px solid #6AFAA9; padding: 10px 5px 5px; color: #5ab984; font-weight: normal;}  
+ .timeline h2.title {background: #fff; font-size: 1.3em; border: 1px solid #6AFAA9; padding: 10px 5px 5px; color: #5ab984; font-weight: normal; 
+  -webkit-animation: animatedBorder 10s ease infinite;
+-moz-animation: animatedBorder 10s ease infinite;
+animation: animatedBorder 10s ease infinite;}  
  .timeline h2 {
     background: #6AFAA9;
     max-width: 6em;
@@ -81,6 +137,7 @@ a#lang {position: absolute; top: 10px; right: 10px;}
     margin-bottom: 1em;
     position: relative;
 }
+
 .timeline li:before {
       content: '';
       width: 0;
@@ -90,6 +147,14 @@ a#lang {position: absolute; top: 10px; right: 10px;}
       position: absolute;
       left: -8px;
       top: 0;
+}
+
+svg.timeline-icon {
+    width: 18px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    fill: #54042c;
 }
   
 .timeline h3 {
@@ -111,6 +176,7 @@ a#lang {position: absolute; top: 10px; right: 10px;}
     padding: 8px 5px 5px;
     display: block;
 }
+.timeline li.active time {border-color: #CC09EE;}
 
 ul.skills, ul.know {padding: 10px;}
 ul.skills li, ul.know li {
@@ -122,6 +188,78 @@ ul.skills li, ul.know li {
 ul.skills li {background: #CC09EE;  color: #fff; }
 ul.know li {border: 1px solid #CC09EE; color: #CC09EE;}
 
+
+.shapped {
+  -webkit-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+  clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+}
+
+.projects li {
+  margin: 20px auto;
+  position: relative;
+  padding: 1px;
+  -webkit-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+  clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+  background-color: #6AFAA9;
+}
+#projects .projects li {
+    width: 28%;
+    display: inline-block;
+    margin-left: -5%;
+}
+#projects .projects li:nth-child(4n-7) {margin-left: 0;}
+.projects li a{
+  height: 200px;
+  width: 100%;
+  -webkit-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+  clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+  background: url(../images/projects/placeholder.png);
+  background-size: cover;
+  display: inline-block;
+}
+.projects li a span {
+  background: #4cd487; line-height: 200px; padding: 8px 20px 5px;
+  -webkit-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+  clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+  color: #fff;
+}
+
+#about .projects li:nth-child(odd) a span, #about .projects li:nth-child(even) a,#about .projects li:nth-child(even) {
+  -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
+}
+#contact {
+  -webkit-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+  clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+}
+#contact h2{font-weight:bold; text-align:center; margin:40px 0 20px; color:#494949; text-transform: lowercase; font-size: 3em; color: #fff; padding: 0px 50px; display: inline-block; position: relative; line-height: 56px; height: 50px; text-shadow: 1px 1px 4px #676767, 0 0 0 #000, -1px -1px 4px #1d1d1d;}
+
+#contact .row {width: 60%; margin:0 auto 30px;}
+#contact input, #contact textarea {
+  display: block; 
+  border:none; 
+  width: 100%; 
+  padding: 10px;
+  text-align: center;
+}
+#contact input {margin-bottom: 5px; -webkit-clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+  clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);}
+#contact input:nth-child(even), #contact textarea {
+  -webkit-clip-path: polygon(0 0, 95% 0, 100% 100%, 5% 100%);
+  clip-path: polygon(0 0, 95% 0, 100% 100%, 5% 100%);
+}
+#contact textarea {height: 100px; }
+.footer-info a {font-size:1.3em; display: block; margin: 0 20px 10px; line-height: 20px; color: #fff; font-weight: bold; text-shadow: 2px 2px 2px #560654;}
+.footer-info svg, .footer-si svg {text-shadow: 2px 2px 2px #560654;}
+
+.skypeLink {
+    overflow: hidden;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+.skypeLink img {margin: 0 !important;vertical-align: 4px !important;}
 @media screen and (min-width: 40em) {
 
     .timeline:before {
@@ -142,6 +280,8 @@ ul.know li {border: 1px solid #CC09EE; color: #CC09EE;}
       float: right;
       margin-top: 2em;
     }
+
+    .timeline li:nth-child(odd) svg.timeline-icon {right: unset; left:5px;}
     
     .timeline li:nth-child(odd) {
       float: left;
@@ -156,9 +296,16 @@ ul.know li {border: 1px solid #CC09EE; color: #CC09EE;}
     .timeline li:nth-of-type(2n+1) {
       clear: both;
     }
+
+    
 }
 
-@media only screen and (max-width: 771px) { 
+@media only screen and (max-width: 40em) { 
   .timeline h2 {margin: 0 0 1em;}
+  #projects .projects li {
+      width: 100%;
+      display: inline-block;
+      margin-left: 0;
+    }
 }
 

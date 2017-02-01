@@ -36,37 +36,33 @@
 			<h1>title</h1>
 			<span>subtitle that can be larger</span>
 			<div class="socialIcons">
-				<a href="">
+				<a href="https://br.linkedin.com/in/aluizasilva22" target="_blank">
 					<svg viewBox="0 0 100 100" class="social-icon icon-linkedin2">
 					  <use xlink:href="#icon-linkedin2"></use>
 					</svg>
 				</a>
-				<a href="">
+				<a href="https://github.com/aluiza22" target="_blank">
 					<svg viewBox="0 0 100 100" class="social-icon icon-github">
 					  <use xlink:href="#icon-github"></use>
 					</svg>
 				</a>
-				<a href="">
-					<svg viewBox="0 0 100 100" class="social-icon icon-skype">
-					  <use xlink:href="#icon-skype"></use>
-					</svg>
-				</a>
-				<a href="">
+				<div id="SkypeButton_Call_ana.luiza.s_1" class="skypeLink social-icon"></div>
+				<a href="https://plus.google.com/u/0/104048577558453957903" target="_blank">
 					<svg viewBox="0 0 100 100" class="social-icon icon-google-plus">
 					  <use xlink:href="#icon-google-plus"></use>
 					</svg>
 				</a>
-				<a href="">
+				<a href="https://twitter.com/anadev22" target="_blank">
 					<svg viewBox="0 0 100 100" class="social-icon icon-twitter">
 					  <use xlink:href="#icon-twitter"></use>
 					</svg>
 				</a>
-				<a href="">
+				<a href="https://www.facebook.com/ana.l.dasilva.75" target="_blank">
 					<svg viewBox="0 0 100 100" class="social-icon icon-facebook">
 					  <use xlink:href="#icon-facebook"></use>
 					</svg>
 				</a>
-				<a href="">
+				<a href="https://www.instagram.com/nalu2204/" target="_blank">
 					<svg viewBox="0 0 100 100" class="social-icon icon-instagram">
 					  <use xlink:href="#icon-instagram"></use>
 					</svg>
@@ -75,7 +71,7 @@
 			<a id="lang" href="/pt/" hreflang="pt">Portuguese</a>
 		</header>
 		<main>	
-			<section>
+			<section id="about">
 				<h2 class='sectionTitle'>About me</h2>
 				<div class="row">
 					<div id="sumary" class="col col70 middle">
@@ -88,68 +84,92 @@
 					<div class="col col70 pr">
 						<div class="timeline">
 							<h2 class="title">Experiences</h2>
-						    <h2>2009</h2>
+						    <h2 class="shapped">2009</h2>
 						    <ul>
 						      <li>
+						      	<svg viewBox="0 0 398.97 398.97" class="timeline-icon icon-college">
+								  <use xlink:href="#icon-college"></use>
+								</svg>
 						        <h3>Technician, Computing</h3>
 						        <h4>Instituto Federal Catarinense - Campus Camboriú</h4>
 						        <p>XXXX</p>
 						        <time>2009 – 2011</time>
 						      </li>
 						    </ul>
-						    <h2>2010</h2>
+						    <h2 class="shapped">2010</h2>
 						    <ul>
 						      <li style="display: none;"></li>
 						      <li>
+						      	<svg viewBox="0 0 511.626 511.627" class="timeline-icon icon-briefcase">
+								  <use xlink:href="#icon-briefcase"></use>
+								</svg>
 						        <h3>IT Intern</h3>
 						        <h4>Dr. Chip</h4>
 						        <p>I learned and worked with hardware maintenance.</p>
 						        <time>September 2010 – October 2011</time>
 						      </li>
 						    </ul>
-						    <h2>2013</h2>
+						    <h2 class="shapped">2013</h2>
 						    <ul>
-						      <li>
+						      <li class="active">
+						      	<svg viewBox="0 0 398.97 398.97" class="timeline-icon icon-college">
+								  <use xlink:href="#icon-college"></use>
+								</svg>
 						        <h3>Technologist, Internet Systems</h3>
 						        <h4>Universidade do Vale do Itajaí</h4>
 						        <p>XXXX</p>
-						        <time>2013 – 2017</time>
+						        <time>2013 – Present [2017]</time>
 						      </li>
 						      <li>
+						      	<svg viewBox="0 0 511.626 511.627" class="timeline-icon icon-briefcase">
+								  <use xlink:href="#icon-briefcase"></use>
+								</svg>
 						        <h3>Front-end Developer</h3>
 						        <h4>IWX Web</h4>
 						        <p>I developed static websites and the front end part of e-commerce Magento stores.</p>
 						        <time>March 2013 – January 2014</time>
 						      </li>
 						    </ul>
-						    <h2>2014</h2>
+						    <h2 class="shapped">2014</h2>
 						    <ul>
 						      <li>
+						      	<svg viewBox="0 0 511.626 511.627" class="timeline-icon icon-briefcase">
+								  <use xlink:href="#icon-briefcase"></use>
+								</svg>
 						        <h3>Web Developer</h3>
 						        <h4>BPM Comunicações</h4>
 						        <p>I developed websites and web systems using HTML, CSS, JavaScript, PHP and MySQL.</p>
 						        <time>January 2014 – July 2015</time>
 						      </li>
 						      <li>
+						      	<svg viewBox="0 0 511.626 511.627" class="timeline-icon icon-briefcase">
+								  <use xlink:href="#icon-briefcase"></use>
+								</svg>
 						        <h3>Marketing Manager of Outgoing Exchanges</h3>
 						        <h4>AIESEC in Balneário Camboriú</h4>
 						        <p>I analysed conversion numbers of people registering and doing the AIESEC exchange, from different marketing medias, and monitor processes of the customer service team.</p>
 						        <time>September 2014 – July 2015</time>
 						      </li>
 						    </ul>
-						    <h2>2015</h2>
+						    <h2 class="shapped">2015</h2>
 						    <ul>
 						      <li>
+						      	<svg viewBox="0 0 398.97 398.97" class="timeline-icon icon-college">
+								  <use xlink:href="#icon-college"></use>
+								</svg>
 						        <h3>Exchange, Information Systems</h3>
 						        <h4>New Jersey Institute of Technology</h4>
 						        <p>Brazilian Scientific Mobility Program Student – USA ​(08/2015 – 08-2016) Competitive scholarship program, provides students atriculated at Brazilian universities an opportunity to pursue study at universities in many countries.</p>
 						        <time>2015 – 2016</time>
 						      </li>
 						    </ul>
-						    <h2>2016</h2>
+						    <h2 class="shapped">2016</h2>
 						    <ul>
-						     <li style="display: none;"></li>
-						      <li>
+						      <li style="display: none;"></li>
+						      <li class="active">
+						      	<svg viewBox="0 0 511.626 511.627" class="timeline-icon icon-briefcase">
+								  <use xlink:href="#icon-briefcase"></use>
+								</svg>
 						        <h3>Web Developer</h3>
 						        <h4>PrismaFive</h4>
 						        <p>I take care of Magento stores and apps integrated with pharmacy system.</p>
@@ -187,13 +207,37 @@
 							<li>REST</li>
 						</ul>
 						<h3 class='sectionSubtitle'>Side Projects</h3>
-							<ul>
-								<li>ParginGPS</li>
-								<li>Connuntius</li>
-								<li>Busao App</li>
-								<li>Giforecast</li>
-								<li>Wordinary</li>
-								<li>Plugged</li>
+							<ul class='projects'>
+								<li>
+									<a href="#">
+										<span>ParginGPS</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>Connuntius</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>Busao App</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">										
+										<span>Giforecast</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>Wordinary</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>Plugged</span>
+									</a>
+								</li>
 							</ul>
 						<h3 class='sectionSubtitle'>Statistics</h3>
 						<ul>
@@ -205,45 +249,147 @@
 					</div>
 					
 				</div>
-				<div class="row">
-					<div class="col col50 pr">
-						
-					</div>
-					<div class="col col50 pl">
-						
-				</div>
 			</section>
-			<section>
+			<section id="projects">
 				<h2 class='sectionTitle'>Projects</h2>
-				<ul>
-					<li>Ambiente Lab</li>
-					<li>Loja Kima</li>
-					<li>Instituto Paula Pujol</li>
-					<li>Atmos Beach</li>
-					<li>IWX Web</li>
-					<li>MDois Cabelereiros</li>
-					<li>Rocha decorações</li>
-					<li>Merkbras</li>
-					<li>Itamirim?</li>
-					<li>Santa Trilha</li>
-					<li>Casa Nobre</li>
+				<ul class="projects">
+					<li>
+						<a href="#">
+							<span>Ambiente Lab</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>Loja Kima</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>Instituto Paula Pujol</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>Atmos Beach</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>IWX Web</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>MDois Cabelereiros</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>Rocha decorações</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>Merkbras</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>Itamirim?</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>Santa Trilha</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>Casa Nobre</span>
+						</a>
+					</li>
 				</ul>
 			</section>
-			<section>
-				<h2 class='sectionTitle'>Contacts</h2>
-				<div>
-					<a href="">email</a>
-					<a href="">celular</a>
-					<a href="">linkedin</a>
-					<a href="">facebook</a>
-					<a href="">g+</a>
-					<a href="">instagram</a>
-					<a href="">github</a>
+			<section id="contact">
+				<h2>Contacts</h2>
+				<div class="row">
+					<div class='col col50 pr'>
+						<form>
+							<input type="text" name="name" placeholder="your name">
+							<input type="mail" name="mail" placeholder="your email">
+							<input type="text" name="subject" placeholder="what is it about?">
+							<textarea placeholder="message" name="message"></textarea>
+						</form>
+					</div>
+					<div class='col col50 pl'>
+						<div class="footer-info">
+							<a href="">
+								<svg viewBox="0 0 100 100" class="social-icon icon-phone">
+								  <use xlink:href="#icon-phone"></use>
+								</svg>
+								+55 47 9 91894933
+							</a>
+							<a href="">
+								<svg viewBox="0 0 100 100" class="social-icon icon-mail">
+								  <use xlink:href="#icon-mail"></use>
+								</svg>
+								aluiza.silva22@gmail.com
+							</a>
+						</div>
+						<div class="footer-si">
+							<a href="https://br.linkedin.com/in/aluizasilva22" target="_blank">
+								<svg viewBox="0 0 100 100" class="social-icon icon-linkedin2">
+								  <use xlink:href="#icon-linkedin2"></use>
+								</svg>
+							</a>
+							<a href="https://github.com/aluiza22" target="_blank">
+								<svg viewBox="0 0 100 100" class="social-icon icon-github">
+								  <use xlink:href="#icon-github"></use>
+								</svg>
+							</a>
+							<!--<a href="" target="_blank">
+								<svg viewBox="0 0 100 100" class="social-icon icon-skype">
+								  <use xlink:href="#icon-skype"></use>
+								</svg></a>-->
+							<div id="SkypeButton_Call_ana.luiza.s_1" class="skypeLink social-icon"></div>
+							
+							<a href="https://plus.google.com/u/0/104048577558453957903" target="_blank">
+								<svg viewBox="0 0 100 100" class="social-icon icon-google-plus">
+								  <use xlink:href="#icon-google-plus"></use>
+								</svg>
+							</a>
+							<a href="https://twitter.com/anadev22" target="_blank">
+								<svg viewBox="0 0 100 100" class="social-icon icon-twitter">
+								  <use xlink:href="#icon-twitter"></use>
+								</svg>
+							</a>
+							<a href="https://www.facebook.com/ana.l.dasilva.75" target="_blank">
+								<svg viewBox="0 0 100 100" class="social-icon icon-facebook">
+								  <use xlink:href="#icon-facebook"></use>
+								</svg>
+							</a>
+							<a href="https://www.instagram.com/nalu2204/" target="_blank">
+								<svg viewBox="0 0 100 100" class="social-icon icon-instagram">
+								  <use xlink:href="#icon-instagram"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
 				</div>
 			</section>
 		</main>
 
 		<!-- SCRIPTS -->
 		<script type="text/javascript" src='js/main.js'></script>
+		<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+		<script type="text/javascript">
+		 Skype.ui({
+		 "name": "chat",
+		 "element": "SkypeButton_Call_ana.luiza.s_1",
+		 "participants": ["ana.luiza.s"],
+		 "imageColor": "white",
+		 "imageSize": 24
+		 });
+		 </script>
 	</body>
 </html>
