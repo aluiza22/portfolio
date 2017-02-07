@@ -209,32 +209,32 @@
 						<h3 class='sectionSubtitle'>Side Projects</h3>
 							<ul class='projects'>
 								<li>
-									<a href="#">
+									<a href="#" style="background-image: url(projects/images/parkingps.png);">
 										<span>ParginGPS</span>
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="#" style="background-image: url(projects/images/connuntius.png);">
 										<span>Connuntius</span>
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="#" style="background-image: url(projects/images/busaoapp.png);">
 										<span>Busao App</span>
 									</a>
 								</li>
 								<li>
-									<a href="#">										
+									<a href="#" style="background-image: url(projects/images/giforecast.png);">										
 										<span>Giforecast</span>
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="#" style="background-image: url(projects/images/wordinary.png);">
 										<span>Wordinary</span>
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="#" style="background-image: url(projects/images/plugged.png);">
 										<span>Plugged</span>
 									</a>
 								</li>
@@ -254,57 +254,57 @@
 				<h2 class='sectionTitle'>Projects</h2>
 				<ul class="projects">
 					<li>
-						<a href="#">
+						<a href="#" style="background-image: url(projects/images/ambientelab.png);">
 							<span>Ambiente Lab</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#" style="background-image: url(projects/images/kima.png);">
 							<span>Loja Kima</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#" style="background-image: url(projects/images/anapaulapujol.jpg);">
 							<span>Instituto Paula Pujol</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#" style="background-image: url(projects/images/atmos.png);">
 							<span>Atmos Beach</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#" style="background-image: url(projects/images/iwx.png);">
 							<span>IWX Web</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#" style="background-image: url(projects/images/mdois.png);">
 							<span>MDois Cabelereiros</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#" style="background-image: url(projects/images/rocha.png);">
 							<span>Rocha decorações</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
-							<span>Merkbras</span>
+						<a href="#" style="background-image: url(projects/images/pavan.png);">
+							<span>Pavan</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
-							<span>Itamirim?</span>
+						<a href="#" style="background-image: url(projects/images/itacolomi.png);">
+							<span>Itacolomi</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#" style="background-image: url(projects/images/santatrilha.png);">
 							<span>Santa Trilha</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#" style="background-image: url(projects/images/casanobre.png);">
 							<span>Casa Nobre</span>
 						</a>
 					</li>
@@ -313,68 +313,58 @@
 			<section id="contact">
 				<h2>Contacts</h2>
 				<div class="row">
-					<div class='col col50 pr'>
-						<form>
-							<input type="text" name="name" placeholder="your name">
-							<input type="mail" name="mail" placeholder="your email">
-							<input type="text" name="subject" placeholder="what is it about?">
-							<textarea placeholder="message" name="message"></textarea>
-						</form>
+					<div class="footer-info">
+						<a href="">
+							<svg viewBox="0 0 100 100" class="social-icon icon-phone">
+							  <use xlink:href="#icon-phone"></use>
+							</svg>
+							<span>+55 47 9 91894933</span>
+						</a>
+						<a href="">
+							<svg viewBox="0 0 100 100" class="social-icon icon-mail">
+							  <use xlink:href="#icon-mail"></use>
+							</svg>
+							<span>aluiza.silva22@gmail.com</span>
+						</a>
 					</div>
-					<div class='col col50 pl'>
-						<div class="footer-info">
-							<a href="">
-								<svg viewBox="0 0 100 100" class="social-icon icon-phone">
-								  <use xlink:href="#icon-phone"></use>
-								</svg>
-								+55 47 9 91894933
-							</a>
-							<a href="">
-								<svg viewBox="0 0 100 100" class="social-icon icon-mail">
-								  <use xlink:href="#icon-mail"></use>
-								</svg>
-								aluiza.silva22@gmail.com
-							</a>
-						</div>
-						<div class="footer-si">
-							<a href="https://br.linkedin.com/in/aluizasilva22" target="_blank">
-								<svg viewBox="0 0 100 100" class="social-icon icon-linkedin2">
-								  <use xlink:href="#icon-linkedin2"></use>
-								</svg>
-							</a>
-							<a href="https://github.com/aluiza22" target="_blank">
-								<svg viewBox="0 0 100 100" class="social-icon icon-github">
-								  <use xlink:href="#icon-github"></use>
-								</svg>
-							</a>
-							<!--<a href="" target="_blank">
-								<svg viewBox="0 0 100 100" class="social-icon icon-skype">
-								  <use xlink:href="#icon-skype"></use>
-								</svg></a>-->
-							<div id="SkypeButton_Call_ana.luiza.s_1" class="skypeLink social-icon"></div>
-							
-							<a href="https://plus.google.com/u/0/104048577558453957903" target="_blank">
-								<svg viewBox="0 0 100 100" class="social-icon icon-google-plus">
-								  <use xlink:href="#icon-google-plus"></use>
-								</svg>
-							</a>
-							<a href="https://twitter.com/anadev22" target="_blank">
-								<svg viewBox="0 0 100 100" class="social-icon icon-twitter">
-								  <use xlink:href="#icon-twitter"></use>
-								</svg>
-							</a>
-							<a href="https://www.facebook.com/ana.l.dasilva.75" target="_blank">
-								<svg viewBox="0 0 100 100" class="social-icon icon-facebook">
-								  <use xlink:href="#icon-facebook"></use>
-								</svg>
-							</a>
-							<a href="https://www.instagram.com/nalu2204/" target="_blank">
-								<svg viewBox="0 0 100 100" class="social-icon icon-instagram">
-								  <use xlink:href="#icon-instagram"></use>
-								</svg>
-							</a>
-						</div>
-					</div>
+					<div class="footer-si">
+						<a href="https://br.linkedin.com/in/aluizasilva22" target="_blank">
+							<svg viewBox="0 0 100 100" class="social-icon icon-linkedin2">
+							  <use xlink:href="#icon-linkedin2"></use>
+							</svg>
+						</a>
+						<a href="https://github.com/aluiza22" target="_blank">
+							<svg viewBox="0 0 100 100" class="social-icon icon-github">
+							  <use xlink:href="#icon-github"></use>
+							</svg>
+						</a>
+						<!--<a href="" target="_blank">
+							<svg viewBox="0 0 100 100" class="social-icon icon-skype">
+							  <use xlink:href="#icon-skype"></use>
+							</svg></a>-->
+						<div id="SkypeButton_Call_ana.luiza.s_1" class="skypeLink social-icon"></div>
+						
+						<a href="https://plus.google.com/u/0/104048577558453957903" target="_blank">
+							<svg viewBox="0 0 100 100" class="social-icon icon-google-plus">
+							  <use xlink:href="#icon-google-plus"></use>
+							</svg>
+						</a>
+						<a href="https://twitter.com/anadev22" target="_blank">
+							<svg viewBox="0 0 100 100" class="social-icon icon-twitter">
+							  <use xlink:href="#icon-twitter"></use>
+							</svg>
+						</a>
+						<a href="https://www.facebook.com/ana.l.dasilva.75" target="_blank">
+							<svg viewBox="0 0 100 100" class="social-icon icon-facebook">
+							  <use xlink:href="#icon-facebook"></use>
+							</svg>
+						</a>
+						<a href="https://www.instagram.com/nalu2204/" target="_blank">
+							<svg viewBox="0 0 100 100" class="social-icon icon-instagram">
+							  <use xlink:href="#icon-instagram"></use>
+							</svg>
+						</a>
+					</div>					
 				</div>
 			</section>
 		</main>
