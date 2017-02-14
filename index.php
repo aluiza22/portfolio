@@ -273,27 +273,27 @@
 							<span>Atmos Beach</span>
 						</a>
 					</li>
-					<li>
+					<!--<li class="invert">
 						<a href="#" style="background-image: url(projects/images/iwx.png);">
 							<span>IWX Web</span>
 						</a>
-					</li>
-					<li>
+					</li>-->
+					<li class="invert">
 						<a href="#" style="background-image: url(projects/images/mdois.png);">
 							<span>MDois Cabelereiros</span>
 						</a>
 					</li>
-					<li>
+					<li class="invert">
 						<a href="#" style="background-image: url(projects/images/rocha.png);">
 							<span>Rocha decorações</span>
 						</a>
 					</li>
-					<li>
+					<li class="invert">
 						<a href="#" style="background-image: url(projects/images/pavan.png);">
 							<span>Pavan</span>
 						</a>
 					</li>
-					<li>
+					<li class="invert">
 						<a href="#" style="background-image: url(projects/images/itacolomi.png);">
 							<span>Itacolomi</span>
 						</a>

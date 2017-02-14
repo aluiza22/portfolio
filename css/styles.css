@@ -194,9 +194,11 @@ ul.know li {border: 1px solid #CC09EE; color: #CC09EE;}
   clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
 }
 
+#projects .projects {margin-top: 20px;}
 .projects li {
-  margin: 20px auto;
+  margin: 3px auto;
   position: relative;
+  overflow: hidden;
   padding: 1px;
   -webkit-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
   clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
@@ -205,7 +207,7 @@ ul.know li {border: 1px solid #CC09EE; color: #CC09EE;}
 #projects .projects li {
     width: 28%;
     display: inline-block;
-    margin-left: -5%;
+    margin-left: -5.3%;
 }
 #projects .projects li:nth-child(4n-7) {margin-left: 0;}
 
@@ -218,6 +220,34 @@ ul.know li {border: 1px solid #CC09EE; color: #CC09EE;}
   background-size: cover;
   display: inline-block;
 }
+
+.projects li a{
+  position: relative;
+  -webkit-filter: contrast(115%) brightness(99%) saturate(130%);
+  filter: contrast(115%) brightness(99%) saturate(130%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.projects li a::before {
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: lighten;
+  background: -webkit-linear-gradient(to bottom right, rgba(203, 62, 253, 0.5) 0, rgba(10, 202, 147, 0.56));
+  background: linear-gradient(to bottom right, rgba(203, 62, 253, 0.5) 0, rgba(10, 202, 147, 0.56));
+}
+.projects li:hover a {filter:none; -webkit-filter:none; transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;}
+.projects li:hover a::before {transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;opacity: 0; background-color: transparent; }
+
 .projects li a span {
   background: #4cd487; line-height: 200px; padding: 8px 20px 5px;
   -webkit-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
@@ -225,7 +255,7 @@ ul.know li {border: 1px solid #CC09EE; color: #CC09EE;}
   color: #fff;
 }
 
-#about .projects li:nth-child(odd) a span, #about .projects li:nth-child(even) a,#about .projects li:nth-child(even) {
+#about .projects li:nth-child(odd) a span, #about .projects li:nth-child(even) a,#about .projects li:nth-child(even), #projects .projects li.invert, #projects .projects li.invert a{
   -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
   clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
 }
@@ -304,10 +334,20 @@ ul.know li {border: 1px solid #CC09EE; color: #CC09EE;}
 
 @media only screen and (max-width: 40em) { 
   .timeline h2 {margin: 0 0 1em;}
-  #projects .projects li {
-      width: 100%;
-      display: inline-block;
-      margin-left: 0;
-    }
+  .projects li, #projects .projects li {
+    width: 100%;
+    display: inline-block;
+    margin-left: 0;
+  }
+  #projects .projects li.invert,#projects .projects li.invert a {
+    -webkit-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+    clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+  }
+  #projects .projects li:nth-child(even), #projects .projects li:nth-child(even) a{
+    -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%); }
+  #contact .row {width: 80%;}
+  .footer-info svg {display: block; margin: 5px auto 15px;}
+  #contact .footer-si {width: 35%; margin: 20px auto 0;}
 }
 
