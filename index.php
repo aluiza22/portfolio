@@ -33,8 +33,9 @@
 
 	<body>
 		<header>
-			<h1>title</h1>
-			<span>subtitle that can be larger</span>
+			<h1>Portfolio</h1>
+			<span id="me">Ana Luiza da Silva</span>
+			<span id="func">web developer</span>
 			<div class="socialIcons">
 				<a href="https://br.linkedin.com/in/aluizasilva22" target="_blank">
 					<svg viewBox="0 0 100 100" class="social-icon icon-linkedin2">
@@ -68,7 +69,7 @@
 					</svg>
 				</a>
 			</div>
-			<a id="lang" href="/pt/" hreflang="pt">Portuguese</a>
+			<a id="lang" href="/portfolio/pt/" hreflang="pt">Português</a>
 		</header>
 		<main>	
 			<section id="about">
@@ -92,7 +93,7 @@
 								</svg>
 						        <h3>Technician, Computing</h3>
 						        <h4>Instituto Federal Catarinense - Campus Camboriú</h4>
-						        <p>XXXX</p>
+						        <p>I learned software development, operational systems instalation and its features, hadware maintenance, network projects and implatations.</p>
 						        <time>2009 – 2011</time>
 						      </li>
 						    </ul>
@@ -117,7 +118,7 @@
 								</svg>
 						        <h3>Technologist, Internet Systems</h3>
 						        <h4>Universidade do Vale do Itajaí</h4>
-						        <p>XXXX</p>
+						        <p>I am learning to identify, analyze, design, implement, deploy, evaluate and maintain efficient and secure web systems, based on free software and based on appropriate methodologies and techniques, following ethical and scientific precepts</p>
 						        <time>2013 – Present [2017]</time>
 						      </li>
 						      <li>
@@ -172,7 +173,7 @@
 								</svg>
 						        <h3>Web Developer</h3>
 						        <h4>PrismaFive</h4>
-						        <p>I take care of Magento stores and apps integrated with pharmacy system.</p>
+						        <p>I develop and take care of Magento stores and apps integrated with pharmacy ERP system.</p>
 						        <time>October 2016 – Present</time>
 						      </li>
 						    </ul>
@@ -209,43 +210,43 @@
 						<h3 class='sectionSubtitle'>Side Projects</h3>
 							<ul class='projects'>
 								<li>
-									<a href="#" style="background-image: url(projects/images/parkingps.png);">
+									<a href="/portfolio/projects/ParginGPS" style="background-image: url(projects/images/parkingps.png);">
 										<span>ParginGPS</span>
 									</a>
 								</li>
 								<li>
-									<a href="#" style="background-image: url(projects/images/connuntius.png);">
+									<a href="/portfolio/projects/connuntius" style="background-image: url(projects/images/connuntius.png);">
 										<span>Connuntius</span>
 									</a>
 								</li>
 								<li>
-									<a href="#" style="background-image: url(projects/images/busaoapp.png);">
+									<a href="/portfolio/projects/busaoapp" style="background-image: url(projects/images/busaoapp.png);">
 										<span>Busao App</span>
 									</a>
 								</li>
 								<li>
-									<a href="#" style="background-image: url(projects/images/giforecast.png);">										
+									<a href="/portfolio/projects/giforecast" style="background-image: url(projects/images/giforecast.png);">										
 										<span>Giforecast</span>
 									</a>
 								</li>
 								<li>
-									<a href="#" style="background-image: url(projects/images/wordinary.png);">
+									<a href="/portfolio/projects/wordinary" style="background-image: url(projects/images/wordinary.png);">
 										<span>Wordinary</span>
 									</a>
 								</li>
 								<li>
-									<a href="#" style="background-image: url(projects/images/plugged.png);">
+									<a href="/portfolio/projects/plugged" style="background-image: url(projects/images/plugged.png);">
 										<span>Plugged</span>
 									</a>
 								</li>
 							</ul>
-						<h3 class='sectionSubtitle'>Statistics</h3>
+						<!--<h3 class='sectionSubtitle'>Statistics</h3>
 						<ul>
 							<li>Projects</li>
 							<li>Cups of coffee</li>
 							<li>Lines</li>
 							<li>Layouts</li>
-						</ul>
+						</ul>-->
 					</div>
 					
 				</div>
@@ -254,22 +255,22 @@
 				<h2 class='sectionTitle'>Projects</h2>
 				<ul class="projects">
 					<li>
-						<a href="#" style="background-image: url(projects/images/ambientelab.png);">
-							<span>Ambiente Lab</span>
+						<a target="_blank" href="http://vmspot.com.br" style="background-image: url(projects/images/ambientelab.png);">
+							<span>VM Spot</span>
 						</a>
 					</li>
 					<li>
-						<a href="#" style="background-image: url(projects/images/kima.png);">
+						<a target="_blank" href="http://importadorakima.com.br" style="background-image: url(projects/images/kima.png);">
 							<span>Loja Kima</span>
 						</a>
 					</li>
 					<li>
-						<a href="#" style="background-image: url(projects/images/anapaulapujol.jpg);">
+						<a target="_blank" href="#" style="background-image: url(projects/images/anapaulapujol.jpg);">
 							<span>Instituto Paula Pujol</span>
 						</a>
 					</li>
 					<li>
-						<a href="#" style="background-image: url(projects/images/atmos.png);">
+						<a target="_blank" href="http://atmosbeach.com.br" style="background-image: url(projects/images/atmos.png);">
 							<span>Atmos Beach</span>
 						</a>
 					</li>
@@ -279,32 +280,32 @@
 						</a>
 					</li>-->
 					<li class="invert">
-						<a href="#" style="background-image: url(projects/images/mdois.png);">
+						<a target="_blank" href="http://mdoiscabeleireiros.com.br" style="background-image: url(projects/images/mdois.png);">
 							<span>MDois Cabelereiros</span>
 						</a>
 					</li>
 					<li class="invert">
-						<a href="#" style="background-image: url(projects/images/rocha.png);">
+						<a target="_blank" href="http://rochadecoracoes.com.br" style="background-image: url(projects/images/rocha.png);">
 							<span>Rocha decorações</span>
 						</a>
 					</li>
 					<li class="invert">
-						<a href="#" style="background-image: url(projects/images/pavan.png);">
+						<a target="_blank" href="http://atacadopavan.com" style="background-image: url(projects/images/pavan.png);">
 							<span>Pavan</span>
 						</a>
 					</li>
 					<li class="invert">
-						<a href="#" style="background-image: url(projects/images/itacolomi.png);">
+						<a target="_blank" href="http://itacolomieventos.com.br" style="background-image: url(projects/images/itacolomi.png);">
 							<span>Itacolomi</span>
 						</a>
 					</li>
 					<li>
-						<a href="#" style="background-image: url(projects/images/santatrilha.png);">
+						<a target="_blank" href="http://santatrilha.com.br" style="background-image: url(projects/images/santatrilha.png);">
 							<span>Santa Trilha</span>
 						</a>
 					</li>
 					<li>
-						<a href="#" style="background-image: url(projects/images/casanobre.png);">
+						<a target="_blank" href="http://casanobreconstrutora.com.br" style="background-image: url(projects/images/casanobre.png);">
 							<span>Casa Nobre</span>
 						</a>
 					</li>
@@ -342,7 +343,7 @@
 							<svg viewBox="0 0 100 100" class="social-icon icon-skype">
 							  <use xlink:href="#icon-skype"></use>
 							</svg></a>-->
-						<div id="SkypeButton_Call_ana.luiza.s_1" class="skypeLink social-icon"></div>
+						<div id="SkypeButton_Call_ana.luiza.s_2" class="skypeLink social-icon"></div>
 						
 						<a href="https://plus.google.com/u/0/104048577558453957903" target="_blank">
 							<svg viewBox="0 0 100 100" class="social-icon icon-google-plus">
@@ -376,6 +377,13 @@
 		 Skype.ui({
 		 "name": "chat",
 		 "element": "SkypeButton_Call_ana.luiza.s_1",
+		 "participants": ["ana.luiza.s"],
+		 "imageColor": "white",
+		 "imageSize": 24
+		 });
+		 Skype.ui({
+		 "name": "chat",
+		 "element": "SkypeButton_Call_ana.luiza.s_2",
 		 "participants": ["ana.luiza.s"],
 		 "imageColor": "white",
 		 "imageSize": 24

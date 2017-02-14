@@ -54,7 +54,11 @@ main {padding:20px 20px 0; text-align:center; width: 90%; margin: auto;}
 section {overflow: hidden;}
 header {text-align: center; padding: 80px 0px; color: #fff; position: relative; text-shadow: 1px 1px 4px #676767, 0 0 0 #000, -1px -1px 4px #1d1d1d;}
 header h1{font-size: 5em; vertical-align: middle; color: #fff; font-weight: bold;}
-header span {font-size: 2em; font-family: 'Shadows Into Light', cursive; font-weight: bold;}
+header span {display:block; font-size: 2em; font-family: 'Shadows Into Light', cursive; font-weight: bold;}
+#me {}
+#func {font-family: 'Farsan', cursive;
+    font-weight: normal;
+    margin-top: 2px;}
 #lang {opacity: .5; color: #fff;}
 #lang:hover {opacity: 1;}
 
