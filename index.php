@@ -3,6 +3,7 @@
 	<head>
 		<title>Portfolio | anadev</title>
 		<meta charset="utf-8">
+		<link rel="shortcut icon" type="image/png" href="fav2.png"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href='css/reset.css' rel='stylesheet' type='text/css'>
 		<link href='css/basic.css' rel='stylesheet' type='text/css'>
@@ -33,10 +34,19 @@
 
 	<body>
 		<header>
-			<h1>Portfolio</h1>
-			<span id="me">Ana Luiza da Silva</span>
-			<span id="func">web developer</span>
+			<h1>Ana Luiza da Silva</h1>
+			<span id="me">web developer</span>
 			<div class="socialIcons">
+				<a href="tel:+5547991894933">
+					<svg viewBox="0 0 100 100" class="social-icon icon-phone">
+					  <use xlink:href="#icon-phone"></use>
+					</svg>
+				</a>
+				<a href="mailto:aluiza.silva22@gmail.com">
+					<svg viewBox="0 0 100 100" class="social-icon icon-mail">
+					  <use xlink:href="#icon-mail"></use>
+					</svg>
+				</a>
 				<a href="https://br.linkedin.com/in/aluizasilva22" target="_blank">
 					<svg viewBox="0 0 100 100" class="social-icon icon-linkedin2">
 					  <use xlink:href="#icon-linkedin2"></use>
@@ -69,9 +79,71 @@
 					</svg>
 				</a>
 			</div>
-			<a id="lang" href="/portfolio/pt/" hreflang="pt">Português</a>
+			<!--<a id="lang" href="/portfolio/pt/" hreflang="pt">Português</a>-->
 		</header>
 		<main>	
+		
+			<section id="projects">
+				<h2 class='sectionTitle'>Projects</h2>
+				<ul class="projects">
+					<li>
+						<a target="_blank" href="https://vmspot.com.br" style="background-image: url(projects/images/thumbs/ambientelab.jpg);">
+							<span>VM Spot</span>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="http://importadorakima.com.br" style="background-image: url(projects/images/thumbs/kima.jpg);">
+							<span>Loja Kima</span>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="#" style="background-image: url(projects/images/thumbs/anapaulapujol.jpg);">
+							<span>Instituto Paula Pujol</span>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="http://atmosbeach.com.br" style="background-image: url(projects/images/thumbs/atmos.jpg);">
+							<span>Atmos Beach</span>
+						</a>
+					</li>
+					<!--<li class="invert">
+						<a href="#" style="background-image: url(projects/images/iwx.jpg);">
+							<span>IWX Web</span>
+						</a>
+					</li>-->
+					<li class="invert">
+						<a target="_blank" href="http://mdoiscabeleireiros.com.br" style="background-image: url(projects/images/thumbs/mdois.jpg);">
+							<span>MDois Cabelereiros</span>
+						</a>
+					</li>
+					<li class="invert">
+						<a target="_blank" href="http://rochadecoracoes.com.br" style="background-image: url(projects/images/thumbs/rocha.jpg);">
+							<span>Rocha decorações</span>
+						</a>
+					</li>
+					<li class="invert">
+						<a target="_blank" href="http://atacadopavan.com" style="background-image: url(projects/images/thumbs/pavan.jpg);">
+							<span>Pavan</span>
+						</a>
+					</li>
+					<li class="invert">
+						<a target="_blank" href="http://itacolomieventos.com.br" style="background-image: url(projects/images/thumbs/itacolomi.jpg);">
+							<span>Itacolomi</span>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="http://santatrilha.com.br" style="background-image: url(projects/images/thumbs/santatrilha.jpg);">
+							<span>Santa Trilha</span>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="http://casanobreconstrutora.com.br" style="background-image: url(projects/images/thumbs/casanobre.jpg);">
+							<span>Casa Nobre</span>
+						</a>
+					</li>
+				</ul>
+			</section>
+			
 			<section id="about">
 				<h2 class='sectionTitle'>About me</h2>
 				<div class="row">
@@ -210,33 +282,33 @@
 						<h3 class='sectionSubtitle'>Side Projects</h3>
 							<ul class='projects'>
 								<li>
-									<a href="/portfolio/projects/ParginGPS" style="background-image: url(projects/images/parkingps.png);">
+									<a target="_blank" href="http://ana.projetointegrador.org/ParkinGPS/" style="background-image: url(projects/images/thumbs/parkingps.jpg);">
 										<span>ParginGPS</span>
 									</a>
 								</li>
 								<li>
-									<a href="/portfolio/projects/connuntius" style="background-image: url(projects/images/connuntius.png);">
+									<a target="_blank" href="http://ana.projetointegrador.org/connuntius/" style="background-image: url(projects/images/thumbs/connuntius.jpg);">
 										<span>Connuntius</span>
 									</a>
 								</li>
 								<li>
-									<a href="/portfolio/projects/busaoapp" style="background-image: url(projects/images/busaoapp.png);">
+									<a target="_blank" href="http://busao-sisnetpi.rhcloud.com/map/" style="background-image: url(projects/images/thumbs/busaoapp.jpg);">
 										<span>Busao App</span>
 									</a>
 								</li>
 								<li>
-									<a href="/portfolio/projects/giforecast" style="background-image: url(projects/images/giforecast.png);">										
+									<a target="_blank" href="/portfolio/projects/Giforecast" style="background-image: url(projects/images/thumbs/giforecast.jpg);">										
 										<span>Giforecast</span>
 									</a>
 								</li>
 								<li>
-									<a href="/portfolio/projects/wordinary" style="background-image: url(projects/images/wordinary.png);">
+									<a target="_blank" href="/portfolio/projects/Wordinary" style="background-image: url(projects/images/thumbs/wordinary.jpg);">
 										<span>Wordinary</span>
 									</a>
 								</li>
 								<li>
-									<a href="/portfolio/projects/plugged" style="background-image: url(projects/images/plugged.png);">
-										<span>Plugged</span>
+									<a target="" href="#" style="background-image: url(projects/images/thumbs/plugged.png);">
+										<span style="background:#babaca">Plugged</span>
 									</a>
 								</li>
 							</ul>
@@ -250,66 +322,6 @@
 					</div>
 					
 				</div>
-			</section>
-			<section id="projects">
-				<h2 class='sectionTitle'>Projects</h2>
-				<ul class="projects">
-					<li>
-						<a target="_blank" href="http://vmspot.com.br" style="background-image: url(projects/images/ambientelab.png);">
-							<span>VM Spot</span>
-						</a>
-					</li>
-					<li>
-						<a target="_blank" href="http://importadorakima.com.br" style="background-image: url(projects/images/kima.png);">
-							<span>Loja Kima</span>
-						</a>
-					</li>
-					<li>
-						<a target="_blank" href="#" style="background-image: url(projects/images/anapaulapujol.jpg);">
-							<span>Instituto Paula Pujol</span>
-						</a>
-					</li>
-					<li>
-						<a target="_blank" href="http://atmosbeach.com.br" style="background-image: url(projects/images/atmos.png);">
-							<span>Atmos Beach</span>
-						</a>
-					</li>
-					<!--<li class="invert">
-						<a href="#" style="background-image: url(projects/images/iwx.png);">
-							<span>IWX Web</span>
-						</a>
-					</li>-->
-					<li class="invert">
-						<a target="_blank" href="http://mdoiscabeleireiros.com.br" style="background-image: url(projects/images/mdois.png);">
-							<span>MDois Cabelereiros</span>
-						</a>
-					</li>
-					<li class="invert">
-						<a target="_blank" href="http://rochadecoracoes.com.br" style="background-image: url(projects/images/rocha.png);">
-							<span>Rocha decorações</span>
-						</a>
-					</li>
-					<li class="invert">
-						<a target="_blank" href="http://atacadopavan.com" style="background-image: url(projects/images/pavan.png);">
-							<span>Pavan</span>
-						</a>
-					</li>
-					<li class="invert">
-						<a target="_blank" href="http://itacolomieventos.com.br" style="background-image: url(projects/images/itacolomi.png);">
-							<span>Itacolomi</span>
-						</a>
-					</li>
-					<li>
-						<a target="_blank" href="http://santatrilha.com.br" style="background-image: url(projects/images/santatrilha.png);">
-							<span>Santa Trilha</span>
-						</a>
-					</li>
-					<li>
-						<a target="_blank" href="http://casanobreconstrutora.com.br" style="background-image: url(projects/images/casanobre.png);">
-							<span>Casa Nobre</span>
-						</a>
-					</li>
-				</ul>
 			</section>
 			<section id="contact">
 				<h2>Contacts</h2>

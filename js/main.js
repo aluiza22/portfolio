@@ -15,3 +15,10 @@ var titles = document.querySelectorAll('h2.sectionTitle');
 titles.forEach(title => title.style.background = url);
 var contact = document.getElementById('contact');
 contact.style.background = url;
+
+//header fullpage
+var wh = window.innerHeight;
+var th = header.offsetHeight-200;
+var np = (wh - th)/2;
+header.style.paddingBottom = np+'px';
+header.style.paddingTop = np+'px';

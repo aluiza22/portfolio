@@ -1,0 +1,312 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordinary</title>
+    <link rel="stylesheet" href="css/foundation.css" />    
+    <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css" />
+    <link href='http://fonts.googleapis.com/css?family=Dekko' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+    <style type="text/css">
+    header {background: #000000; color: #ffffff; text-align: center; font-size: 1em; padding: 10px 0 5px; vertical-align: middle;  text-transform: uppercase; line-height: 2em; position: relative;}
+    header p {margin: 0; padding: 0; line-height: 2.3em; font-size: .9em;font-weight: bold;}
+    header i {color: #ff9f38; font-size: 1.5em;}
+    footer {position: fixed; bottom: 5px; text-align: center; font-size: 2.5em; padding: 10px 0 5px; vertical-align: middle; line-height: 1; right: 15px;}
+    .fi-flag {color: #4caf50;}
+    .fi-quote {color: #f44336;}
+    .fi-volume {color: #00bcd4;}
+    main {background: url(img/cumpadi.jpg) no-repeat -100px 361px; height:518px; position: relative;}
+    .baloon {padding:20px 60px 54px; background: url(img/baloon_pdd.png) no-repeat center center; height: 176px; text-align: center; top: 20px; position: relative; }
+    .baloon.ef.correto {background-image: url(img/baloon_black.png);}
+    .baloon h1 {line-height: 100px; font-family: 'Dekko', cursive; font-weight: normal;}
+    #dropmenu.f-dropdown {width: 100% !important; border: 0; top:3.3em !important; left: 0 !important; background: #222; outline: none;}
+    #dropmenu.f-dropdown:before, #dropmenu.f-dropdown:after {display: none;}
+    #dropmenu.f-dropdown li {border-bottom: 1px solid #000;}
+    #dropmenu.f-dropdown li a {color: #ff9f38; text-transform: none;}
+    #dropmenu.f-dropdown li:hover {background: #222222;}
+    section {width:320px; height:568px; position: absolute; background: #fff;}
+    #ajuda main, #ajudaET main, #ajudaEF main {background: url(img/ajuda.jpg) no-repeat center bottom; background-size: 100% auto;}
+    section {display: none;}
+    section.active {display: block;}
+    textarea {border: 0; resize: none; background: none; padding: 15px 0px; height: 103px; box-shadow: none; text-transform: uppercase; font-weight: bold; text-align: justify;}
+    textarea:focus, textarea[readonly] {background: none;}
+    .correto textarea {color: #fff;}
+    footer a {display: inline-block;}
+    #resposta {
+      font-size: .4em;
+      font-weight: bold;
+      vertical-align: middle;
+      height: 20px;
+      padding-right: 18px;
+      color: #ff9f38;
+    }
+    .content {
+      padding: 40px 30px 30px;
+      text-transform: uppercase;
+      font-size: 1.1em;
+      font-weight: bold;
+      text-align: justify;
+    }
+    .content p {font-weight: bold; font-size: 1.1em; font-weight: bold; text-align: justify;}
+    .content h1 {color: #000; text-align: center; font-size: 2em; font-weight: bold; margin: 30px 0;}
+    strong {color: #ff9f38;}
+    .baloons {margin-top: -20px;}
+    .baloons div {width: 200px; height: 115px; background: url(img/ballon_so.png) no-repeat center center; position: relative; margin-top: -10px;
+      padding: 20px 20px 40px;
+      text-align: center;
+      font-weight: normal;
+      color: #fff;
+      font-size: 1.5em;
+      line-height: 2.2em;
+      font-family: 'Dekko', cursive;
+    }
+    .baloons div.right {right: 0;}    
+    .baloons div.left {left: 0; background-image: url(img/ballon_sol.png);}
+    .baloons div.right.correta { background-image: url(img/ballon_sb.png);}    
+    .baloons div.left.correta { background-image: url(img/ballon_sbl.png);}  
+    .baloons div.errada {color: #911f1f;}
+    .instrucao {
+      background: url(img/arrows.png) no-repeat 0px -38px rgba(0, 0, 0, 0.78);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      padding: 151px 40px;
+      font-weight: normal;
+      text-align: justify;
+      color: #fff;
+      background-size: cover;
+      font-family: 'Dekko', cursive;
+      font-size: 1.4em;
+    }
+    .instrucao .fechar {  position: absolute;
+  top: 0px;
+  right: 13px;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #fff;}
+    </style>
+  </head>
+  <body>
+
+    <section id="pdd" class="page active">    
+      <header>
+        <div class="row">
+          <div class="small-2 columns">
+            <a data-dropdown="dropmenu" aria-controls="dropmenu" aria-expanded="false"><i class="fi-page-copy"></i></a>                     
+          </div>
+          <ul id="dropmenu" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+            <li><a  onClick="trocaPage('#ef');">exercício frase</a></li>
+            <li><a  onClick="trocaPage('#et');">exercício tradução</a></li>
+          </ul> 
+          <div class="small-8 columns"><p>Palavra do Dia</p></div>
+          <div class="small-2 columns">
+            <a onClick="trocaPage('#ajuda');"><i class="fi-info"></i></a>
+          </div>
+      </header>      
+      <main>
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="content" style='height:200px;'>
+              <div id="translateC" style='display:none;'><h1>Ordinária</h1></div>
+              <div id="fraseC" style='display:none;'>You know nothing innocent!! Come, COME, COME <strong>Ordinary</strong>!!</div>
+            </div>
+          	<div class="baloon pdd">
+              <h1>ordinary</h1>
+            </div>
+            <footer class='actions'>
+              <a id="translate" onClick="mostraT();"><i class="fi-flag"></i></a>
+              <a id="frase" onClick="mostraF();"><i class="fi-quote"></i></a>
+              <a id="som" onClick="tocaSom();"><i class="fi-volume"></i></a>
+            </footer>
+          </div>
+        </div>
+        <div class="instrucao" style="display:none;">Use o menu acima para acessar os exercícios e a ajuda, e o menu abaixo para acessar a tradução, uso e áudio da palavra!<a class="fechar" onClick="$('.instrucao').hide();">X</a></div>
+      </main>
+    </section>
+
+
+    <section class="page" id="ef">    
+      <header>
+        <div class="row">
+          <div class="small-2 columns">
+            <a onClick="trocaPage('#pdd');"><img src="img/w.png"></a>                     
+          </div>
+          <div class="small-8 columns"><p>Exercício</p></div>
+          <div class="small-2 columns">
+            <a onClick="trocaPage('#ajudaEF');"><i class="fi-info"></i></a>
+          </div>
+      </header>
+      <main>
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="content" style='height:200px;'>
+              <p id="fe">INNOCENT!! COME, NOTHING COME, YOU  ORDINARY!! KNOW COME</p>
+              
+            </div> 
+            <div class="baloon ef">
+              <textarea id="efta" onKeyUp="verificaEF('You know nothing innocent!! Come, come, come ordinary!!');"></textarea>
+            </div> 
+            <footer class='actions'>
+              <a id="resposta" onClick="mostraRF('You know nothing innocent!! Come, come, come ordinary!!');">RESPOSTA</a>
+            </footer>        
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section class="page" id="ajudaEF">    
+      <header>
+        <div class="row">
+          <div class="small-2 columns">
+            <a onClick="trocaPage('#ef');"><i class="fi-arrow-left"></i></a>                     
+          </div>
+          <div class="small-8 columns"><p>Ajuda</p></div>
+          <div class="small-2 columns"></div>
+      </header>
+      <main>
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="content" style='height:200px;'>
+              Reorganize a frase dada para formar uma frase correta. Quando você digitar a frase corretamente, será avisado do acerto. Caso queira descobrir como a frase deveria ser, clique em "RESPOSTA".
+            </div>          
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section class="page" id="et">    
+      <header>
+        <div class="row">
+          <div class="small-2 columns">
+            <a onClick="trocaPage('#pdd');"><img src="img/w.png"></a>                     
+          </div>
+          <div class="small-8 columns"><p>Exercício</p></div>
+          <div class="small-2 columns">
+            <a onClick="trocaPage('#ajudaET');"><i class="fi-info"></i></a>
+          </div>
+      </header>
+      <main>
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="content" style='height:160px;'>
+              You know nothing innocent!! Come, COME, COME <strong>Ordinary</strong>!!
+            </div>  
+            <div class="baloons">
+              <div id="op1" class="right" onClick="verificaET(this.id);">inocente</div>
+              <div id="op2" class="left" onClick="verificaET(this.id);">ordinária</div> 
+              <div id="op3" class="right" onClick="verificaET(this.id);">danada</div>
+            </div>
+            <footer class='actions'>
+              <a id="resposta" onClick="mostraRT('#op2');">RESPOSTA</a>
+              <a id="som" onClick="tocaSom();"><i class="fi-volume"></i></a>
+            </footer>         
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section class="page" id="ajudaET">    
+      <header>
+        <div class="row">
+          <div class="small-2 columns">
+            <a onClick="trocaPage('#et');"><i class="fi-arrow-left"></i></a>                     
+          </div>
+          <div class="small-8 columns"><p>Ajuda</p></div>
+          <div class="small-2 columns"></div>
+      </header>
+      <main>
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="content" style='height:200px;'>
+              Escolha a opção que traduz corretamente a palavra grifada na frase. Casa queira saber a tradução correta, clique em "RESPOSTA".
+            </div>          
+          </div>
+        </div>
+      </main>
+    </section>
+
+
+    <section class="page" id="ajuda">    
+      <header>
+        <div class="row">
+          <div class="small-2 columns">
+            <a onClick="trocaPage('#pdd');"><i class="fi-arrow-left"></i></a>                     
+          </div>
+          <div class="small-8 columns"><p>Ajuda</p></div>
+          <div class="small-2 columns"></div>
+      </header>
+      <main>
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="content" style='height:200px;'>
+              Eiiitaaa Mainhaaa!! Esse app é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa! Agora use meu app ordinária!!!
+            </div>          
+          </div>
+        </div>
+      </main>
+    </section>
+    
+    <script src="jquery.min.js"></script>
+    <script src="js/foundation.min.js"></script>    
+    <script>
+      $(document).foundation();
+      function mostraT() {
+        $( '#translateC' ).css( "display", "block" );
+        $( '#fraseC' ).css( "display", "none" );
+      }
+
+      function mostraF() {
+        $( '#translateC' ).css( "display", "none" );
+        $( '#fraseC' ).css( "display", "block" );
+      }
+
+      function tocaSom() {
+        alert( "Toca som" );
+      }
+
+      function verificaEF(resposta){
+        var valor = $( '#efta' ).val();
+        if (valor.toUpperCase() == resposta.toUpperCase()) {$( '.baloon.ef' ).addClass('correto');}; 
+      }
+
+      function verificaET(id) {
+        if (id == 'op2') {
+          $( '#op2' ).addClass( "correta" );
+        } else {
+          $( '#'+id ).addClass( "errada" );
+          $( '#op2' ).addClass( "correta" );
+        }; 
+      }
+
+      function mostraRF(resposta) {
+        $('#efta').attr('readonly','readonly');
+        $( '#efta' ).val(resposta);   
+        $( '.baloon.ef' ).addClass('correto');    
+      } 
+
+      function mostraRT(opcao) {
+        $( opcao ).addClass( "correta" );
+      }
+
+      function trocaPage(page) {
+         $( ".page" ).removeClass( "active" );
+         $( page ).toggleClass( "active" );
+      }
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          // check cookie
+          var visited = $.cookie("visited")
+
+          if (visited == null) {
+              $('.instrucao').show();                   
+          }
+
+          // set cookie
+          $.cookie('visited', 'yes', { expires: 1, path: '/' });
+      });
+    </script>
+  </body>
+</html>

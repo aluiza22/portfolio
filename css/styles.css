@@ -48,13 +48,54 @@ animation: animatedColor 10s ease infinite; */
 -moz-animation: animatedBorder 10s ease infinite;
 animation: animatedBorder 10s ease infinite; */
 
+/* header arrow animation */
+@keyframes arrowBounce{
+	0% {transform: rotate(180deg)  translate(0px,0px);} 15% {transform: rotate(180deg)  translate(0px,-18px);}
+	30% {transform: rotate(180deg)  translate(0px,0px);} 45% {transform: rotate(180deg)  translate(0px,-8px);}
+	60% {transform: rotate(180deg)  translate(0px,0px);} 75% {transform: rotate(180deg)  translate(0px,-2px);}
+	100% {transform: rotate(180deg)  translate(0px,0px);}
+}
+@-moz-keyframes arrowBounce{
+	0% {-moz-transform: rotate(180deg)  translate(0px,0px);} 15% {-moz-transform: rotate(180deg)  translate(0px,-18px);}
+	30% {-moz-transform: rotate(180deg)  translate(0px,0px);} 45% {-moz-transform: rotate(180deg)  translate(0px,-8px);}
+	60% {-moz-transform: rotate(180deg)  translate(0px,0px);} 75% {-moz-transform: rotate(180deg)  translate(0px,-2px);}
+	100% {-moz-transform: rotate(180deg)  translate(0px,0px);}
+}
+@-webkit-keyframes arrowBounce {
+	0% {-webkit-transform: rotate(180deg)  translate(0px,0px);} 15% {-webkit-transform: rotate(180deg)  translate(0px,-18px);}
+	30% {-webkit-transform: rotate(180deg)  translate(0px,0px);} 45% {-webkit-transform: rotate(180deg)  translate(0px,-8px);}
+	60% {-webkit-transform: rotate(180deg)  translate(0px,0px);} 75% {-webkit-transform: rotate(180deg)  translate(0px,-2px);}
+	100% {-webkit-transform: rotate(180deg)  translate(0px,0px);}
+}
+@-o-keyframes arrowBounce {
+	0% {-o-transform: rotate(180deg)  translate(0px,0px);} 15% {-o-transform: rotate(180deg)  translate(0px,-18px);}
+	30% {-o-transform: rotate(180deg)  translate(0px,0px);} 45% {-o-transform: rotate(180deg)  translate(0px,-8px);}
+	60% {-o-transform: rotate(180deg)  translate(0px,0px);} 75% {-o-transform: rotate(180deg)  translate(0px,-2px);}
+	100% {-o-transform: rotate(180deg)  translate(0px,0px);}
+}
+@-ms-keyframes arrowBounce {
+	0% {-ms-transform: rotate(180deg)  translate(0px,0px);} 15% {-ms-transform: rotate(180deg)  translate(0px,-18px);}
+	30% {-ms-transform: rotate(180deg)  translate(0px,0px);} 45% {-ms-transform: rotate(180deg)  translate(0px,-8px);}
+	60% {-ms-transform: rotate(180deg)  translate(0px,0px);} 75% {-ms-transform: rotate(180deg)  translate(0px,-2px);}
+	100% {-ms-transform: rotate(180deg)  translate(0px,0px);}
+}
+
+
+
 html, body {font-family: 'Farsan', cursive; color: #250b18;}
 svg.svbg { display: none; }
 main {padding:20px 20px 0; text-align:center; width: 90%; margin: auto;}
 section {overflow: hidden;}
-header {text-align: center; padding: 80px 0px; color: #fff; position: relative; text-shadow: 1px 1px 4px #676767, 0 0 0 #000, -1px -1px 4px #1d1d1d;}
-header h1{font-size: 5em; vertical-align: middle; color: #fff; font-weight: bold;}
-header span {display:block; font-size: 2em; font-family: 'Shadows Into Light', cursive; font-weight: bold;}
+header {text-align: center; padding: 100px 0px; color: #fff; position: relative; text-shadow: 1px 1px 4px #676767, 0 0 0 #000, -1px -1px 4px #1d1d1d;}
+#page404, #page404 body, #page404 header {height: 100%;}
+header h1{
+      font-size: 5em;
+    vertical-align: middle;
+    color: #fff;
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+}
+header span {display:block; font-size: 2em; font-weight: bold;}
 #me {}
 #func {font-family: 'Farsan', cursive;
     font-weight: normal;
@@ -82,7 +123,7 @@ h2.sectionTitle:after {
     width: 0;
 }
 
-h3.sectionSubtitle {text-align: center; color: #87244C; font-weight: normal; font-family: 'Shadows Into Light', cursive; font-size: 1.5em; margin: 10px 0; text-shadow: 1px 1px 0px #929292;
+h3.sectionSubtitle {text-align: center; color: #87244C; font-weight: normal; font-family: 'Lobster', cursive; font-size: 1.5em; margin: 10px 0; text-shadow: 1px 1px 0px #929292;
 -webkit-animation: animatedColor 10s ease infinite;
 -moz-animation: animatedColor 10s ease infinite;
 animation: animatedColor 10s ease infinite;}
@@ -97,7 +138,32 @@ a#lang {position: absolute; top: 10px; right: 10px;}
   height: 20px;
   fill: #fff;
 }
-.socialIcons {position: absolute; bottom: 10px; width: 100%;}
+.socialIcons {position: absolute; bottom: 40px; width: 100%;}
+.socialIcons:after {
+	content: "^";
+	position: absolute;
+	font-size: 3em;
+	transform: rotate(180deg);
+	display: block;
+	left: 50%;
+	margin-left: -.5em;
+	bottom: -130%;
+	animation: arrowBounce linear 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	-webkit-animation: arrowBounce linear 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 50%;
+	-moz-animation: arrowBounce linear 2s;
+	-moz-animation-iteration-count: infinite;
+	-moz-transform-origin: 50% 50%;
+	-o-animation: arrowBounce linear 2s;
+	-o-animation-iteration-count: infinite;
+	-o-transform-origin: 50% 50%;
+	-ms-animation: arrowBounce linear 2s;
+	-ms-animation-iteration-count: infinite;
+	-ms-transform-origin: 50% 50%;
+}
 .socialIcons .social-icon {opacity: .6; margin: 0 5px;}
 .socialIcons .social-icon:hover {opacity: 1;}
 
@@ -181,6 +247,17 @@ svg.timeline-icon {
     display: block;
 }
 .timeline li.active time {border-color: #CC09EE;}
+.timeline:after {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #6AFAA9;
+    left: 50%;
+    margin-left: -8px;
+    border-radius: 50%;
+    bottom: 0px;
+}
 
 ul.skills, ul.know {padding: 10px;}
 ul.skills li, ul.know li {
@@ -189,7 +266,7 @@ ul.skills li, ul.know li {
   margin: 0 10px 10px 0; 
   font-weight: bold;
 }
-ul.skills li {background: #CC09EE;  color: #fff; }
+ul.skills li {background: #a9039b;  color: #fff; }
 ul.know li {border: 1px solid #CC09EE; color: #CC09EE;}
 
 
@@ -253,10 +330,10 @@ ul.know li {border: 1px solid #CC09EE; color: #CC09EE;}
   -webkit-transition: all 1s ease-in-out;opacity: 0; background-color: transparent; }
 
 .projects li a span {
-  background: #4cd487; line-height: 200px; padding: 8px 20px 5px;
+  background: #4cd487; line-height: 200px; padding: 8px 35px 5px;
   -webkit-clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
   clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
-  color: #fff;
+  color: #fff; font-size:1.5em;
 }
 
 #about .projects li:nth-child(odd) a span, #about .projects li:nth-child(even) a,#about .projects li:nth-child(even), #projects .projects li.invert, #projects .projects li.invert a{

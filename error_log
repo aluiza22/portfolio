@@ -1,0 +1,10 @@
+[11-May-2017 22:21:29 America/Chicago] PHP Warning:  include_once(/css/svg/symbol-defs.svg): failed to open stream: No such file or directory in /home/anade380/public_html/portfolio/404.php on line 32
+[11-May-2017 22:21:29 America/Chicago] PHP Warning:  include_once(): Failed opening '/css/svg/symbol-defs.svg' for inclusion (include_path='.:/opt/php56/lib/php') in /home/anade380/public_html/portfolio/404.php on line 32
+[11-May-2017 22:21:30 America/Chicago] PHP Warning:  include_once(/css/svg/symbol-defs.svg): failed to open stream: No such file or directory in /home/anade380/public_html/portfolio/404.php on line 32
+[11-May-2017 22:21:30 America/Chicago] PHP Warning:  include_once(): Failed opening '/css/svg/symbol-defs.svg' for inclusion (include_path='.:/opt/php56/lib/php') in /home/anade380/public_html/portfolio/404.php on line 32
+[11-May-2017 22:21:30 America/Chicago] PHP Warning:  include_once(/css/svg/symbol-defs.svg): failed to open stream: No such file or directory in /home/anade380/public_html/portfolio/404.php on line 32
+[11-May-2017 22:21:30 America/Chicago] PHP Warning:  include_once(): Failed opening '/css/svg/symbol-defs.svg' for inclusion (include_path='.:/opt/php56/lib/php') in /home/anade380/public_html/portfolio/404.php on line 32
+[11-May-2017 22:21:30 America/Chicago] PHP Warning:  include_once(/css/svg/symbol-defs.svg): failed to open stream: No such file or directory in /home/anade380/public_html/portfolio/404.php on line 32
+[11-May-2017 22:21:30 America/Chicago] PHP Warning:  include_once(): Failed opening '/css/svg/symbol-defs.svg' for inclusion (include_path='.:/opt/php56/lib/php') in /home/anade380/public_html/portfolio/404.php on line 32
+[11-May-2017 22:21:30 America/Chicago] PHP Warning:  include_once(/css/svg/symbol-defs.svg): failed to open stream: No such file or directory in /home/anade380/public_html/portfolio/404.php on line 32
+[11-May-2017 22:21:30 America/Chicago] PHP Warning:  include_once(): Failed opening '/css/svg/symbol-defs.svg' for inclusion (include_path='.:/opt/php56/lib/php') in /home/anade380/public_html/portfolio/404.php on line 32
